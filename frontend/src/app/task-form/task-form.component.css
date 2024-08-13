@@ -1,0 +1,21 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Space between fields */
+    max-width: 400px; /* restrict the maximum width */
+    margin: auto; /* center the form horizontally */
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+
+  .error {
+    color: red;
+    font-size: 0.8em;
+  }  
+
+  h2 {
+    text-align: center;
+  }
+  
